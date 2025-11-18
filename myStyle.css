@@ -1,0 +1,108 @@
+body{
+    margin: auto;
+    background-color: #a6d9d9;
+}
+body h1 h2{
+    font-family: Georgia;
+}
+body p{
+    font-family: Arial;   
+}
+header{
+    background-color: #a6ccd9;
+    text-align: center;
+    border:solid black 1px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+header h1 {
+    color: #172e36;
+}
+header p {
+    color: #264d59;
+}
+nav{
+    background-color: #5ea3ba;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid black 1px;
+    font-size: larger;
+    word-spacing: 40px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(0, 35, 100);
+}
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+section {
+    border: solid black 1px;
+    background-color: #c9e0e8;
+}
+section h2{
+    margin-left: 5%;
+    color: #172e36;
+}
+section p {
+    color: #264d59;
+}
+#home {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 20px;
+}
+#home p{
+    margin-left: 5%;
+}
+#about {
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 20px;
+}
+#about p{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#projects {
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 30px;
+}
+#projects ul li {
+    margin-left: 2.5%;
+    color: #264d59;
+    text-decoration: none;
+    display: block;
+    font-family: Arial;
+}
+#contact {
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 20px;
+}
+#contact p{
+    margin-left: 5%;
+}
+footer {
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid black 1px;
+    background-color: #edf5f7;
+}
+footer p {
+    text-align: center;
+    font-size: small;
+    color: #5ea3ba;
+}
